@@ -410,7 +410,7 @@ body {
     .circle-4 {
         @extend %circle-1;
         top: 25%;
-        right: -4%;
+        right: 4%;
     }
     .circle-5 {
         @extend %circle-2;
@@ -724,6 +724,7 @@ body {
 // 992px - 1200px
 
 @media screen and (max-width: 1200px) {
+
 
     .header__top nav .nav__list li:last-child  {
        padding-right: 0;
