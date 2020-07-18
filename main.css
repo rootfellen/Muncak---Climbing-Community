@@ -713,7 +713,10 @@ body {
     margin-bottom: 0; }
 
   .post .post-1 {
-    width: 100%; } }
+    width: 100%; }
+
+  .footer__nav-resources {
+    display: none; } }
 @media screen and (max-width: 768px) {
   .circle-2 {
     left: -10%; }
@@ -768,6 +771,15 @@ body {
   .footer__nav-resources {
     display: none; } }
 @media screen and (max-width: 576px) {
+  .about .about__features .about__feature {
+    width: 25rem; }
+
+  .about .about__features .about__feature .about__feature-title {
+    padding-bottom: 2rem; }
+
+  .about__feature-info p {
+    padding-bottom: 2rem; }
+
   .circle-2 {
     left: -13%; }
 
@@ -828,7 +840,57 @@ body {
 
   .subscription .circle-8 {
     top: 85%;
-    left: 85%; } }
+    left: 85%; }
+
+  .subscription .subscription__form .subscribe {
+    width: 100%; }
+
+  .subscription .subscription__form .subscribe input {
+    max-width: 20rem; } }
+@media screen and (max-width: 420px) {
+  .footer__nav-programs {
+    display: none; }
+
+  .header__content .header__content-subtitle {
+    width: 15rem;
+    margin: 3rem auto;
+    text-align: center; }
+
+  .header__content .header__content-title {
+    text-align: center;
+    width: 100%; }
+
+  .header__content .cta-btn, .about .about__features .cta-btn-more {
+    display: flex;
+    text-align: center;
+    justify-content: center; }
+
+  .about .about__features .about__feature {
+    width: 20rem; }
+
+  .about .about__features .about__feature {
+    padding: 2rem; }
+
+  .subscription .subscription__form .subscribe input {
+    width: 80%; }
+
+  .footer__nav-about {
+    display: none; }
+
+  .footer__nav, .footer__nav-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+
+  .footer__socials {
+    justify-content: center; }
+
+  .footer__socials-link:last-child {
+    margin-right: 0; }
+
+  .circle-3 {
+    left: 65%; } }
 @media screen and (max-width: 320px) {
   .header__content .header__content-title {
     width: 100%;
@@ -847,7 +909,7 @@ body {
     left: -25%; }
 
   .circle-1 {
-    right: -20%; }
+    right: 1%; }
 
   .header__content .header__content-subtitle {
     width: 100%;
@@ -868,12 +930,11 @@ body {
 
   .about .about__features .about__feature {
     padding: 2rem 1rem;
-    width: 90%;
     margin: 0 auto;
     text-align: center; }
 
   .about .circle-4 {
-    right: -20%; }
+    right: 5%; }
 
   .about .about__features {
     grid-row-gap: 4rem; }
@@ -922,6 +983,9 @@ body {
     width: 70%; }
 
   .header__top nav .nav__list li:first-child {
-    margin-top: -1rem; } }
+    margin-top: -1rem; }
+
+  .nav__list-item a {
+    white-space: nowrap; } }
 
 /*# sourceMappingURL=main.css.map */
